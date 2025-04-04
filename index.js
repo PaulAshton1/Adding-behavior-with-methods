@@ -39,9 +39,11 @@ class Bird {
 }
 
 let myCat = new Cat('Will','female');
+console.log(myCat instanceof Cat); // true
 console.log(myCat.speak()); // Will says meow!
 
 let myDog = new Dog('Bruno', 'male');
+console.log(myDog instanceof Dog); // true
 console.log(myDog.speak());// Bruno says woof!
 
 let myBird = new Bird ('Holly','male');
